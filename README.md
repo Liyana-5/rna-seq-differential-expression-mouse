@@ -48,5 +48,9 @@ qsub scripts/run_rnaseq_pbs.sh
 
 Open `analysis/differential_expression.Rmd` in RStudio and knit to HTML.
 
+## Limitations
+
+This analysis is limited to RNA-seq reads derived from chromosome 2 of the mouse genome and a relatively small number of biological replicates (n = 4 per group). As a result, the findings may not fully capture genome-wide expression changes and should be interpreted as illustrative rather than exhaustive. Additionally, transcript-level quantification is subject to increased variability due to isoform complexity and alternative splicing. Despite these limitations, the workflow demonstrates a robust, batch-aware, and reproducible approach to differential expression analysis.
+
 ## Author
 Liyana Saleem
